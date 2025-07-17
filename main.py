@@ -2,7 +2,7 @@ from PyPDF2 import PdfReader, PdfWriter
 import os
 
 # Change the path where your pdfs saved
-folder_path = r"C:\Users\pradip\PycharmProjects\Work on PDF\pdfs" 
+folder_path = r"C:\pdfs" 
 pdf_files = [file for file in os.listdir(folder_path) if file.endswith(".pdf")]
 
 merger = PdfWriter()
